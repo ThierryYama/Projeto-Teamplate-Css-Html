@@ -57,11 +57,9 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-}
-
-.main-col2 {
     text-align: justify;
 }
+
 
 .sec-1 {
     padding: 30px 50px;
@@ -150,6 +148,13 @@
     gap: 20px
 }
 
+.row-principal figure {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .row-2 {
     width: 250px;
     height: 400px;
@@ -163,16 +168,14 @@
     
 }
 
+.row-2 h6{
+    font-size: 25px;
+}
+
 .row-2 p {
     text-align: center;
 }
 
-.row-principal figure {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .imagem-1{
     position: absolute;
