@@ -1,0 +1,66 @@
+@media screen and (max-width: 480px){
+    
+    .container-header{
+        justify-content: center;
+        height: 120px;
+        padding: 20px 50px;
+    }
+
+    .main-col1, .main-col2{
+        width: 100%;
+    }
+
+    .main-col1 figure {
+        justify-content: center;
+    }
+
+    .main-col2 {
+        align-items: center;
+    }
+
+    .sec{
+        text-align: center;
+    }
+
+    .sec-2{
+        text-align: center;
+    }
+
+    .card{
+        width: 90%;
+    }
+    .sec-2-title p {
+        width: 90%;
+    }
+    
+    .sec-4{
+        gap: 25px;
+        text-align: center;
+    }
+
+    .sec-4-col1, .sec-4-col2{
+        width: 100%;
+    }
+
+    .row-1, .row-2{
+        justify-content: center;
+        width: 50%;
+    }
+
+
+.footer .footer-row1 .footer-col1,
+.footer-col2,
+.footer-col3{
+width: 100%;
+text-align: center;
+}
+
+.footer-social{
+    gap: 15px;
+}
+
+.footer-row1{
+    gap:40px;
+}
+
+}
